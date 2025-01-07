@@ -2,8 +2,8 @@
 
 # PHP FileSizeHandler - Google Cloud Extension
 
-![Packagist Downloads](https://img.shields.io/packagist/dt/nassiry/filesize-handler-google-cloud-extension)
-![Packagist Version](https://img.shields.io/packagist/v/nassiry/filesize-handler-google-cloud-extension)
+![Packagist Downloads](https://img.shields.io/packagist/dt/nassiry/filesize-handler-googlecloud-extension)
+![Packagist Version](https://img.shields.io/packagist/v/nassiry/filesize-handler-googlecloud-extension)
 ![PHP](https://img.shields.io/badge/PHP-%5E8.0-blue)
 ![License](https://img.shields.io/github/license/nassiry/filesize-handler-google-cloud-extension)
 
