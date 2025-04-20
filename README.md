@@ -12,6 +12,12 @@
 
 The **Google Cloud Extension** for [FileSizeHandler](https://github.com/nassiry/filesize-handler) enables support for retrieving file sizes from Google Cloud Storage.
 
+
+### Features
+- Fetch file sizes from Google Cloud Storage.
+- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
+
+
 ## Installation
 
 Install the extension via Composer:
@@ -35,17 +41,18 @@ $handler = FileSizeHandler::create()
         'my-bucket',        // Google Cloud bucket name
         'path/to/file.txt'  // File path in the bucket
     ))
-    ->formattedSize();
+    ->format();
 
 echo $handler; // Output: "15.67 MiB"
 ```
 
-### Features
-- Fetch file sizes from Google Cloud Storage.
-- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
-
 ### Contributing
 Feel free to submit issues or pull requests to improve the package. Contributions are welcome!
+
+
+### Changelog
+
+See [CHANGELOG](CHANGELOG.md) for release details.
 
 ### License
 This package is open-source software licensed under the [MIT license](LICENSE).
